@@ -297,6 +297,11 @@ body {
           justify-content: center;
 }
 
+.features {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .features-list {
   display: -webkit-box;
   display: -ms-flexbox;
