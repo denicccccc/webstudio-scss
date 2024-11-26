@@ -743,3 +743,7 @@ background: #fff;
 .portfolio-item:hover .overlay{
   transform: translateY(0%);
 }
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
