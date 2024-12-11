@@ -70,7 +70,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    color: var(--logo-color);
+    color: $logo-color;
     animation: changeSize 600ms infinite;
   }
 
@@ -201,7 +201,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: $logo-color;
   }
   .team-list {
     display: flex;
@@ -229,7 +229,7 @@
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--accent-color);
+    color: $logo-color;
     background-color: var(--hover-color);
   }
   
@@ -332,7 +332,7 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: $logo-color;
   }
   
   .footer-adress,
@@ -356,7 +356,7 @@
   
   .footer-adress {
     margin-bottom: 9px;
-    color: var(--accent-color);
+    color: $logo-color;
   }
   
   .footer-adress + .footer-contacts {
@@ -517,7 +517,7 @@
   }
   
   .portfolio-btn:hover {
-    color: var(--accent-color);
+    color: $logo-color;
     background-color: var(--hover-color);
   }
   
